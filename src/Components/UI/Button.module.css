@@ -1,0 +1,17 @@
+.btn {
+  background-color: rgb(78, 1, 130);
+  color: white;
+  padding: 1% 4%;
+  font-size: 120%;
+}
+
+.btn:hover {
+  background-color: rgba(78, 1, 130, 0.482);
+  color: white;
+  cursor: pointer;
+  border: 1px solid rgba(78, 1, 130, 0.482);
+}
+
+.div-btn {
+  padding: 1% 2%;
+}
