@@ -1,0 +1,8 @@
+.errorPop {
+  background-color: rgb(23, 2, 36);
+  color: white;
+}
+
+.noPopup {
+  display: none;
+}

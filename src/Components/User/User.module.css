@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
+/* .user-form {
+  margin: auto;
+  margin-top: 5%;
+  width: 55%;
+  border: 3px solid rgba(2, 14, 53, 0.991);
+  border-radius: 10px;
+  padding: 1%;
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  font-size: 120%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+.user-form label {
+  padding: 1% 2%;
+  padding-bottom: 4%;
+}
+
+.user-input {
+  padding: 1% 2%;
+}
+
+.user-form input {
+  width: 100%;
+  border: 1px solid rgb(78, 1, 130);
+  padding: 1%;
+}

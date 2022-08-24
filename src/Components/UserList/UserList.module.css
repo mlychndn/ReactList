@@ -1,0 +1,17 @@
+.User-list {
+  margin: auto;
+  margin-top: 5%;
+  width: 55%;
+  border: 3px solid rgba(2, 14, 53, 0.991);
+  border-radius: 5%;
+  padding: 1%;
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  font-size: 120%;
+}
+
+.User-list-value {
+  margin: 1%;
+  border: 1px solid rgb(78, 1, 130);
+  padding: 1% 2%;
+}
