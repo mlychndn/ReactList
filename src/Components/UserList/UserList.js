@@ -1,13 +1,19 @@
 import React from "react";
 import styles from "./UserList.module.css";
+import Card from "../UI/Card";
 
 const UserList = (props) => {
-  console.log("details", props.details);
-  let userString = `${props.details.userName} ${props.details.age}`;
   return (
-    <div className={styles["User-list"]}>
-      <div className={styles["User-list-value"]}>{userString}</div>
-    </div>
+    <Card>
+      <ul>
+        {props.details.map((detail) => (
+          <li
+            key={detail.id}
+            className={styles["User-list-value"]}
+          >{`${detail.userName} (${detail.age})`}</li>
+        ))}
+      </ul>
+    </Card>
   );
 };
 

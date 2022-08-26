@@ -4,17 +4,18 @@ import Button from "../UI/Button";
 import Card from "../UI/Card";
 
 const User = (props) => {
-  console.log("style", props.style);
   const [initialName, setInitialName] = useState("");
   const [initialAge, setInitialAge] = useState("");
   const formSubmitHandler = (event) => {
     event.preventDefault();
-    console.log("form is submitted!");
+
     let userDetails = {
       id: `U-${Math.floor(Math.random() * 100 + 1)}`,
       userName: initialName,
       age: initialAge,
     };
+
+    // console.log("details", userDetails);
 
     props.onFormSubmit(userDetails);
     setInitialName("");
@@ -22,10 +23,12 @@ const User = (props) => {
   };
 
   const userNameHandler = (event) => {
+    console.log("name", event.target.value);
     setInitialName(event.target.value);
   };
 
   const userAgeHandler = (event) => {
+    console.log("age", event.target.value);
     setInitialAge(event.target.value);
   };
   return (
